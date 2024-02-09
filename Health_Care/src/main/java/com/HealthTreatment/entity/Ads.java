@@ -21,8 +21,5 @@ public class Ads {
 	Address address;
 	
 	@OneToMany
-	Treatment treatment;
-	
-	@OneToMany
 	Facilities facilities;
 }
